@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_myLocation" android:title="@string/action_myLocation"
+        android:orderInCategory="1" app:showAsAction="never" />
+    <item android:id="@+id/action_share" android:title="@string/action_Share"
+        android:orderInCategory="2" app:showAsAction="never" />
+    <item android:id="@+id/action_mark" android:title="@string/action_Mark"
+        android:orderInCategory="3" app:showAsAction="never"/>
+    <item android:id="@+id/action_Mode" android:title="@string/action_Mode"
+        android:orderInCategory="4" app:showAsAction="never">
+        <menu>
+            <group android:checkableBehavior = "none">
+
+                <item android:id="@+id/action_LocMode" android:title="@string/action_LocMode"
+                    android:orderInCategory="5" app:showAsAction="never" >
+                    <menu>
+                        <group android:checkableBehavior = "none">
+                            <item android:id="@+id/LocMode_common" android:title = "@string/LocMode_common"/>
+                            <item android:id="@+id/LocMode_compass" android:title = "@string/LocMode_compass"/>
+                        </group>
+                    </menu>
+                </item>
+
+                <item android:id="@+id/action_MapMode" android:title="@string/action_MapMode"
+                    android:orderInCategory="6" app:showAsAction="never" >
+                    <menu>
+                        <group android:checkableBehavior = "none">
+                            <item android:id="@+id/MapMode_common" android:title = "@string/MapMode_common"/>
+                            <item android:id="@+id/MapMode_satellite" android:title = "@string/MapMode_satellite"/>
+                            <item android:id="@+id/MapMode_traffic" android:title = "@string/MapMode_traffic"/>
+                        </group>
+                    </menu>
+                </item>
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:id="@+id/action_settings" android:title="@string/action_Settings"
+        android:orderInCategory="7" app:showAsAction="never" >
+        <menu>
+            <group android:checkableBehavior = "none">
+                <item android:id="@+id/AllowToShare" android:title = "@string/AllowToShare"/>
+                <item android:id="@+id/AllowToReceive" android:title = "@string/AllowToReceive"/>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/addon" android:title="@string/addon">
+
+    </item>
+</menu>

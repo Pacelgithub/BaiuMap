@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BaiuMap</string>
+    <string name="action_myLocation">我的位置</string>
+    <string name="action_Share">分享位置</string>
+    <string name="action_Settings">设置</string>
+    <string name="action_Mark">标记位置</string>
+    <string name="action_Mode">模式选择</string>
+    <string name="action_LocMode">定位模式</string>
+    <string name="action_MapMode">地图模式</string>
+    <string name="LocMode_common">普通模式</string>
+    <string name="LocMode_compass">罗盘模式</string>
+    <string name="MapMode_common">普通地图</string>
+    <string name="MapMode_satellite">卫星地图</string>
+    <string name="MapMode_traffic">实时交通(off)</string>
+    <string name="AllowToShare">位置共享(on)</string>
+    <string name="NoAllowToShare">位置共享(off)</string>
+    <string name="AllowToReceive">数据接收(on)</string>
+    <string name="NoAllowToReceive">数据接收(off)</string>
+    <string name="addon">添加覆盖物test</string>
+</resources>
